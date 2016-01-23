@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Michael Kemm's Home Page</title>
 	</head>
-	<body>
+	<body class="background">
 
 		<h1>Michael Kemm</h1>
 		<h2>Purpose</h2>

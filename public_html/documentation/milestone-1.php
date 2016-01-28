@@ -16,5 +16,7 @@
 		<h2>Persona</h2>
 		<p> Todd: A 40-year-old small business owner that wants to establish a web presence. Todd's goal is to determine
 		whether or not to contact me about designing his website.</p>
+		<h2>Use case</h2>
+		<ul></ul>
 	</body>
 </html>

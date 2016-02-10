@@ -22,20 +22,4 @@
 		<h2>Small screen wireframe</h2>
 		<img src="wireFrameSmallScreen.svg">
 	</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

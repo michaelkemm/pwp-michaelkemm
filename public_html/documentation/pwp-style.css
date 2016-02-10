@@ -1,1 +1,111 @@
-.background {background-color: ivory }
+	/***
+	* Flexbox Sticky Footer
+	* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+	***/
+
+	/*corrects IE min-height bug*/
+	html {
+		display: flex;
+	}
+
+	body {
+		width: 100%;
+	}
+
+	.sfooter {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+
+	.sfooter-content {
+		flex: 1 0 auto;
+	}
+
+
+	footer {
+		background: #222;
+		min-height: 100px;
+	}
+
+
+	/* general styles */
+	html, body {
+		height: 100%;
+		width: 100%;
+	}
+
+	/* padded section */
+	.pad-section {
+		padding: 50px 0;
+	}
+
+	.pad-section img {
+		width: 100%;
+	}
+
+	/* vertical-centered text */
+	.text-vcenter {
+		display: table-cell;
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	.text-vcenter h1 {
+		font-size: 4.5em;
+		font-weight: 700;
+		margin: 0;
+		padding: 0;
+	}
+
+	/* additional sections */
+	#home {
+		background: url("../images/ocean.jpg") no-repeat center center fixed;
+		display: flex;
+		height: 50%;
+		position: relative;
+		width: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#about {
+	}
+
+	#services {
+		background-color: #222;
+		color: white;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#services .glyphicon {
+		border: 2px solid #FFFFFF;
+		border-radius: 50%;
+		display: inline-block;
+		font-size: 60px;
+		height: 140px;
+		line-height: 140px;
+		text-align: center;
+		vertical-align: middle;
+		width: 140px;
+	}
+
+	#work {
+		width: 100%;
+	}
+
+	#information {
+		background: url("../images/oakTree.jpg") no-repeat center center fixed;
+		display: flex;
+		height: 50%;
+		position: relative;
+		width: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}

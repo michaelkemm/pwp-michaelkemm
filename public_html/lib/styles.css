@@ -12,7 +12,27 @@
 		width: 100%;
 	}
 
-	.sfooter {
+	main {
+		width: 100%;
+	}
+
+	header {
+		height: 10%;
+		background-color: black;
+		color: #fff;
+		padding: 20px 0;
+	}
+
+	#navbar {
+		background: black;
+		color: #222;
+	}
+	 
+	#top-nav {
+		color: #fff;
+	}
+
+ .sfooter {
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
@@ -22,17 +42,9 @@
 		flex: 1 0 auto;
 	}
 
-
 	footer {
 		background: #222;
 		min-height: 100px;
-	}
-
-
-	/* general styles */
-	html, body {
-		height: 100%;
-		width: 100%;
 	}
 
 	/* padded section */
@@ -60,11 +72,12 @@
 
 	/* additional sections */
 	#home {
-		background: url("../images/ocean.jpg") no-repeat center center fixed;
+		background: url("../images/majora.jpg") no-repeat center center fixed;
 		display: flex;
-		height: 50%;
+		height: 20%;
 		position: relative;
 		width: 100%;
+		padding: 20px 0;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -72,10 +85,14 @@
 	}
 
 	#about {
+		background-color: white;
+		width: 100%;
+		height: 100vh;
 	}
 
 	#services {
 		background-color: #222;
+		display: flex;
 		color: white;
 		width: 100%;
 		margin: 0;
@@ -94,14 +111,18 @@
 		width: 140px;
 	}
 
-	#work {
-		width: 100%;
+	#panel-heading {
+		background: rgba(255, 255, 255, 0.3);
+	}
+
+	#contact {
+		background-color: #222;
 	}
 
 	#information {
 		background: url("../images/oakTree.jpg") no-repeat center center fixed;
 		display: flex;
-		height: 50%;
+		height: 25vm;
 		position: relative;
 		width: 100%;
 		-webkit-background-size: cover;

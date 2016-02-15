@@ -4,13 +4,14 @@
 		<meta charset="utf-8"/>
 		<title>Michael Kemm</title>
 		<?php require_once(dirname(__DIR__) . "/lib/head-tags.htm"); ?>
-		<link rel="stylesheet" href="pwp-style.css"/>
+		<link rel="stylesheet" href="../lib/bootstrap-social.css"/>
+		<link rel="stylesheet" href="../lib/styles.css"/>
 	</head>
 	<!-- enables sticky footer -->
 	<body class="sfooter">
 		<div class="sfooter-content">
 				<header id="home">
-					<nav class="navbar navbar-default navbar-fixed-top">
+					<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
 						<div class="container">
 							<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header">
@@ -22,31 +23,31 @@
 								</button>
 								<a class="navbar-brand" href="#">MK</a>
 							</div>
-
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="top-nav">
 								<ul class="nav navbar-nav navbar-right">
 									<li><a href="#">About</a></li>
 									<li><a href="#">Work</a></li>
 									<li><a href="#">Contact</a></li>
-									<li><a href="#">GitHub</a></li>
 								</ul>
 									</li>
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</div><!-- /.container -->
 					</nav>
-				</header>
-				<main class="container">
-					<div class="home">
-						<div class="text-vcenter">
-							<h1>Me!</h1>
-							<h3>Site under construction</h3>
+					<div class="pad-section">
+						<div class="container">
+							<div class="text-vcenter">
+								<h1>Me!</h1>
+								<h3>Site under construction</h3>
+							</div>
 						</div>
 					</div>
+				</header>
+				<main>
 					<!-- second section - About -->
 					<div id="about" class="pad-section">
-						<div class="container">
+						<div class="container" >
 							<div class="row">
 								<div class="col-sm-6">
 								</div>
@@ -85,13 +86,66 @@
 							</div>
 						</div>
 					</div>
-					<div id="information" class="pad-section"></div>
-
+					<!-- fourth section - Information -->
+					<div id="information" class="pad-section img">
+						<!-- <div class="container">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h2 class="panel-title">Additional information</h2>
+										</div>
+										<div class="panel-body lead">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h2 class="panel-title">Additional information</h2>
+										</div>
+										<div class="panel-body lead">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+					<!-- fifth section -->
+					<div id="contact" class="pad-section">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col-sm-12">
+									<h3>Contact</h3>
+									<hr />
+									<a href="mailto:michaelkemm@icloud.com">email</a>
+								</div>
+							</div>
+							<div class="row text-center">
+								<a class="btn btn-social-icon btn-linkedin">
+									<span class="fa fa-linkedin"></span>
+								</a>
+								<a class="btn btn-social-icon btn-twitter">
+									<span class="fa fa-twitter"></span>
+								</a>
+								<a class="btn btn-social-icon btn-facebook">
+									<span class="fa fa-facebook"></span>
+								</a>
+								<a class="btn btn-social-icon btn-github">
+									<span class="fa fa-github"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- footer -->
+					<footer>
+						<hr />
+						<div class="container">
+							<p class="text-right">Copyright &copy; Michael Kemm 2016</p>
+						</div>
+					</footer>
 				</main>
 		</div>
-
-		<footer>
-<p>footer</p>
-		</footer>
-
 	</body>

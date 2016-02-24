@@ -1,132 +1,160 @@
-	/***
-	* Flexbox Sticky Footer
-	* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-	***/
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
 
-	/*corrects IE min-height bug*/
-	html {
-		display: flex;
-	}
+/*corrects IE min-height bug*/
+html {
+	display: flex;
+}
 
-	body {
-		width: 100%;
-	}
+body {
+	width: 100%;
+}
 
-	main {
-		width: 100%;
-	}
+footer {
+	background: #222;
+	min-height: 100px;
+}
 
-	header {
-		height: 10%;
-		background-color: black;
-		color: #fff;
-		padding: 20px 0;
-	}
+header {
+	height: 10%;
+	background-color: #222;
+	color: #fff;
+	padding: 20px 0;
+}
 
-	#navbar {
-		background: black;
-		color: #222;
-	}
-	 
-	#top-nav {
-		color: #fff;
-	}
+h1, h2, h3 {
+	color: white;
+}
 
- .sfooter {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
+main {
+	width: 100%;
+}
 
-	.sfooter-content {
-		flex: 1 0 auto;
-	}
+nav {
+	color: #222;
+}
+#head {
+	vertical-align: bottom;
+}
 
-	footer {
-		background: #222;
-		min-height: 100px;
-	}
+/* page styles */
+#about {
+	background-color: #30AFCC;
+	width: 100%;
 
-	/* padded section */
-	.pad-section {
-		padding: 50px 0;
-	}
+}
 
-	.pad-section img {
-		width: 100%;
-	}
+#contact {
+	background-color: #799399;
+}
 
-	/* vertical-centered text */
-	.text-vcenter {
-		display: table-cell;
-		text-align: left;
-		vertical-align: middle;
-	}
+.email {
+	font-size: 1.5em;
+	color: #30AFCC;
+	margin-bottom: 7%;
+}
 
-	.text-vcenter h1 {
-		font-size: 4.5em;
-		font-weight: 700;
-		margin: 0;
-		padding: 0;
-	}
+/* header background */
+#home {
+	background: url("../images/trees.jpg") no-repeat center center fixed;
+	display: flex;
+	height: 23%;
+	position: relative;
+	width: 100%;
+	padding: 20px 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
-	/* additional sections */
-	#home {
-		background: url("../images/majora.jpg") no-repeat center center fixed;
-		display: flex;
-		height: 20%;
-		position: relative;
-		width: 100%;
-		padding: 20px 0;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+#navbar {
+	background: black;
+	color: #222;
+	height: 10vh;
+}
 
-	#about {
-		background-color: white;
-		width: 100%;
-		height: 100vh;
-	}
+#top-nav {
+	color: #fff;
+}
 
-	#services {
-		background-color: #222;
-		display: flex;
-		color: white;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
+/* padded section */
+.pad-section {
+	padding: 50px 0;
+	width: 100vw;
+}
 
-	#services .glyphicon {
-		border: 2px solid #FFFFFF;
-		border-radius: 50%;
-		display: inline-block;
-		font-size: 60px;
-		height: 140px;
-		line-height: 140px;
-		text-align: center;
-		vertical-align: middle;
-		width: 140px;
-	}
+.pad-section img {
+	width: 100%;
+}
 
-	#panel-heading {
-		background: rgba(255, 255, 255, 0.3);
-	}
+.panel-body {
+	color: white;
+}
 
-	#contact {
-		background-color: #222;
-	}
+#panel-heading {
+	background: rgba(255, 255, 255, 0.3);
+}
 
-	#information {
-		background: url("../images/oakTree.jpg") no-repeat center center fixed;
-		display: flex;
-		height: 25vm;
-		position: relative;
-		width: 100%;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+/* sticky footer */
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+}
+
+/*.text-vcenter h1 {
+	font-size: 4.5em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+*/
+
+#work {
+	background-color: #222;
+	display: flex;
+	color: white;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#work .glyphicon {
+	border: 2px solid #FFFFFF;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 60px;
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+	vertical-align: middle;
+	width: 140px;
+}
+
+#information {
+	background: url("../images/trees.jpg") no-repeat center center fixed;
+	/*background-color: #E8FFEF;*/
+	display: flex;
+	height: 25vm;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+

@@ -36,7 +36,7 @@ Your Milestone 2&alpha; passes at [Tier II](https://bootcamp-coders.cnm.edu/proj
 - Don't forget to add alt text to your images
 
 ### Milestone 2&beta; Feedback
-Awesome awesome job. You're almost ready to deploy to ASO. Just some final polish on design and HTML/CSS, dir structure, and form mailer and you'll be re4ady to go. See feedback below.
+Awesome awesome job. You're almost ready to deploy to ASO. Just some final polish on design and HTML/CSS, dir structure, and form mailer and you'll be re4ady to go. See feedback below. Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
 
 #### Edits &amp; Suggestions
 1. div#home: consider setting a min-height in you CSS for mobile first, then inside of a @media query, set a min-height for desktop. See snippet:

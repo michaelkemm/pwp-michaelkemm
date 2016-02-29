@@ -34,3 +34,32 @@ Your Milestone 2&alpha; passes at [Tier II](https://bootcamp-coders.cnm.edu/proj
 #### Edits &amp; Suggestions
 - You're missing the &lt;title&gt; and &lt;meta charset="utf"/&gt; tags
 - Don't forget to add alt text to your images
+
+### Milestone 2&beta; Feedback
+Awesome awesome job. You're almost ready to deploy to ASO. Just some final polish on design and HTML/CSS, dir structure, and form mailer and you'll be re4ady to go. See feedback below.
+
+#### Edits &amp; Suggestions
+1. div#home: consider setting a min-height in you CSS for mobile first, then inside of a @media query, set a min-height for desktop. See snippet:
+```
+CSS:
+--------
+
+#home {
+  min-height: 400px;
+}
+
+@media only screen and (min-width: 992px) {
+  #home {
+    min-height: 600px;
+  }
+}
+```
+2. put your &lt;ul&gt;s inside a div.panel-body. Do not apply .panel-body to the &lt;ul&gt;. BS doesn't like it.
+3. remove .pad-section {width: 100vw;}
+4. footer: Maybe add some padding. Remove the &lt;hr&gt;.
+5. Add a contact form to your contact section.
+6. Final polish on design: text colors, padding, etc.
+7. Add padding to each section so navbar-fixed plays nice.
+8. fix up directory structure: create an index.php file in /public_html - this will be your landing page.
+9. Look over https://bootcamp-coders.cnm.edu/class-materials/php/email/[https://bootcamp-coders.cnm.edu/class-materials/php/email/]. Add the composer.json file and mailer.php
+

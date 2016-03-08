@@ -8,94 +8,79 @@ html {
 	display: flex;
 }
 
+footer {
+	background: #1A181C;
+	color: white;
+	min-height: 100px;
+	padding-top: 20px;
+}
+
 body {
 	width: 100%;
 }
 
-footer {
-	background: #222;
-	min-height: 100px;
-}
-
-header {
-	height: 10%;
-	background-color: #222;
-	color: #fff;
-	padding: 20px 0;
+li a {
+	color: #80B239;
 }
 
 h1, h2, h3 {
-	color: white;
+	color: #FCFCFE;
 }
 
 main {
-	width: 100%;
+	font-family: 'Gilda Display', serif;
+	width: 100vw;
 }
 
-nav {
-	color: #222;
-}
-#head {
-	vertical-align: bottom;
+ul {
+	list-style: outside;
 }
 
-/* page styles */
-#about {
-	background-color: #30AFCC;
-	width: 100%;
-
+#top-nav{
+	font-family: 'Gilda Display', serif;
 }
 
-#contact {
-	background-color: #799399;
-}
+.navbar-brand {
 
-.email {
-	font-size: 1.5em;
-	color: #30AFCC;
-	margin-bottom: 7%;
-}
-
-/* header background */
-#home {
-	background: url("../images/trees.jpg") no-repeat center center fixed;
-	display: flex;
-	height: 23%;
-	position: relative;
-	width: 100%;
-	padding: 20px 0;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.75em;
 }
 
 #navbar {
-	background: black;
-	color: #222;
-	height: 10vh;
+
+	background-color: #406C8E;
+	color: #30AFCC;
 }
 
-#top-nav {
-	color: #fff;
+.about {
+	font-size: 1.5em;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.control-label {
+	color: #FCFCFE;
 }
 
 /* padded section */
 .pad-section {
 	padding: 50px 0;
-	width: 100vw;
 }
 
-.pad-section img {
-	width: 100%;
+.panel {
+	border: none;
 }
 
 .panel-body {
-	color: white;
+	background: #406C8E;
+	color: #FCFCFE;
+	font-size: 1.25em;
 }
 
+/*80B239*/
 #panel-heading {
-	background: rgba(255, 255, 255, 0.3);
+	background: #1A181C;
+	color: #FCFCFE;
 }
 
 /* sticky footer */
@@ -109,45 +94,58 @@ nav {
 	flex: 1 0 auto;
 }
 
-/* vertical-centered text */
-.text-vcenter {
-	display: table-cell;
-	text-align: left;
-	vertical-align: middle;
+#head {
+	vertical-align: bottom;
 }
 
-/*.text-vcenter h1 {
-	font-size: 4.5em;
-	font-weight: 700;
-	margin: 0;
-	padding: 0;
-}
-*/
+/* page styles */
+#about {
+	background-color: #406C8E;
+	width: 100%;
+	color: #FCFCFE;
 
-#work {
-	background-color: #222;
+}
+/*#7DADD3*/
+
+#contact {
+	background-color: #3D4652;
+}
+
+/* header background */
+#home {
+	background: url("../images/technology.jpg") no-repeat center center fixed;
 	display: flex;
-	color: white;
+	min-height: 500px;
+	position: relative;
+	width: 100%;
+	padding: 20px 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media (max-device-width: 992px) {
+
+	#home {
+
+		-webkit-backface-visibility: hidden;
+
+	}
+
+}
+
+#projects {
+	background-color: #1A181C;
+	display: flex;
+	color: #FCFCFE;
 	width: 100%;
 	margin: 0;
-	padding: 0;
-}
-
-#work .glyphicon {
-	border: 2px solid #FFFFFF;
-	border-radius: 50%;
-	display: inline-block;
-	font-size: 60px;
-	height: 140px;
-	line-height: 140px;
-	text-align: center;
-	vertical-align: middle;
-	width: 140px;
+	padding: 50px;
 }
 
 #information {
-	background: url("../images/trees.jpg") no-repeat center center fixed;
-	/*background-color: #E8FFEF;*/
+	background: url("../images/pcb.jpg") no-repeat center center fixed;
 	display: flex;
 	height: 25vm;
 	position: relative;

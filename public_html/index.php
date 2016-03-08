@@ -23,7 +23,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand text-left" href="#">Michael Kemm</a>
+							<a class="navbar-brand text-left" href="#home">Michael Kemm</a>
 						</div>
 						<!-- nav links for toggling -->
 						<div class="collapse navbar-collapse" id="top-nav">
@@ -45,7 +45,7 @@
 						<hr/>
 						<div class="row">
 							<p class="about">I like creating cool stuff, especially within the web paradigm. I also like
-								pancakes, video games, and my wife among other things. I could go on about myself, but it's much
+								pancakes, video games, and camping among other things. I could go on about myself, but it's much
 								more fun to get to know people through conversation. If there's anything else you're curious
 								about in regard to me,
 								or in general, I'd love to have a chat with you. Just click that
@@ -109,7 +109,7 @@
 									</div>
 									<div class="panel-body">
 										<ul>
-											<li>Programming Languages (HTML5, JavaScript, jQuery, MySQL, CSS3, PHP, OOP, AngularJS,
+											<li>Programming Languages (JavaScript, jQuery, AngularJS, PHP, OOP, MySQL, HTML5, CSS3,
 												Bootstrap)
 											</li>
 											<li>Interface Design and Development (UI, UX, Terminal, PhpStorm)</li>
@@ -134,7 +134,7 @@
 							<div class="col-sm-12">
 								<h3>Contact</h3>
 								<hr/>
-								<form class="form-horizontal" action="php-lib/phpMailer.php" method="post"
+								<form class="form-horizontal" action="php-lib/phpMailer.php"
 										enctype="multipart/form-data">
 									<div class="form-group">
 										<label class="control-label col-xs-2" for="name">Name</label>
@@ -167,7 +167,7 @@
 									</div>
 									<div class="form-group">
 										<div>
-											<button type="submit" class="btn btn-primary center-block">Submit</button>
+											<button type="submit" class="btn btn-primary center-block"><i class="fa fa-paper-plane"></i> Submit</button>
 										</div>
 									</div>
 								</form>

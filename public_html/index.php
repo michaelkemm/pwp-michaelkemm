@@ -73,8 +73,8 @@
 							</div>
 							<div class="col-sm-4 col-xs-12">
 								<i class="fa fa-cog fa-spin fa-5x"> </i>
-								<h3>something cool..</h3>
-								<p>Under construction</p>
+								<h3>Three cogs look better than two...</h3>
+								<p></p>
 							</div>
 						</div>
 					</div>
@@ -134,13 +134,11 @@
 							<div class="col-sm-12">
 								<h3>Contact</h3>
 								<hr/>
-								<form class="form-horizontal" action="php-lib/phpMailer.php"
-										enctype="multipart/form-data">
+								<form id="contact-form" class="form-horizontal" method="post" action="php-lib/phpMailer.php">
 									<div class="form-group">
 										<label class="control-label col-xs-2" for="name">Name</label>
 										<div class="col-xs-10">
-											<input type="text" class="form-control" name="name" id="name"
-													 required>
+											<input type="text" class="form-control" name="name" id="name" required>
 										</div>
 									</div>
 									<div class="form-group">
@@ -160,17 +158,20 @@
 									<div class="form-group">
 										<label class="control-label col-xs-2">Message</label>
 										<div class="col-xs-10">
-											<textarea id="message" class="form-control" rows="3"
+											<textarea id="message" class="form-control" rows="3" name="message"
 														 placeholder="Let's get this conversation started!"
 														 required></textarea>
 										</div>
 									</div>
 									<div class="form-group">
 										<div>
-											<button type="submit" class="btn btn-primary center-block"><i class="fa fa-paper-plane"></i> Submit</button>
+											<button type="submit" class="btn btn-primary center-block"><i
+													class="fa fa-paper-plane"></i> Submit
+											</button>
 										</div>
 									</div>
 								</form>
+								<div id="output-area"></div>
 								<hr/>
 							</div>
 						</div>

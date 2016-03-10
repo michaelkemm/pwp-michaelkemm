@@ -10,18 +10,11 @@ html {
 
 footer {
 	background: #1A181C;
-	color: white;
+	color: #FCFCFE;
 	min-height: 100px;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
-body {
-	width: 100%;
-}
-
-li a {
-	color: #80B239;
-}
 
 h1, h2, h3 {
 	color: #FCFCFE;
@@ -125,16 +118,6 @@ ul {
 	background-size: cover;
 }
 
-@media (max-device-width: 992px) {
-
-	#home {
-
-		-webkit-backface-visibility: hidden;
-
-	}
-
-}
-
 #projects {
 	background-color: #1A181C;
 	display: flex;
@@ -155,4 +138,3 @@ ul {
 	-o-background-size: cover;
 	background-size: cover;
 }
-
